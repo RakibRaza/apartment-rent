@@ -19,7 +19,7 @@ const NavBar = () => {
           <ul className="navbar-nav">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
-                Home
+                Nahid home
               </a>
             </li>
             <li className="nav-item">
