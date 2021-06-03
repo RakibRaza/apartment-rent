@@ -1,38 +1,37 @@
-.myRent-section{
-    text-align: left;
+.myRent-section {
+  text-align: left;
 }
-.my-rent{
-   padding: 60px;
+.my-rent {
+  padding: 60px;
 }
-.my-rent h4{
-    font-size: 23px;
-    font-weight: 600;
-    color: #686868;
-    padding-bottom: 25px;
+.my-rent h4 {
+  font-size: 23px;
+  font-weight: 600;
+  color: #686868;
+  padding-bottom: 25px;
 }
-.rent-table{}
+
 .rent-heading {
-    background: #f7f7f7;
-    padding: 8px 30px;
-    border-radius: 9px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
+  background: #f7f7f7;
+  padding: 8px 30px;
+  border-radius: 9px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
 }
-.rent-heading h6{
-    margin-top: 10px;
+.rent-heading h6 {
+  margin-top: 10px;
 }
-.rent-detail{
-    display: flex;
-    justify-content: space-between;
-    margin: 20px;
+.rent-detail {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
 }
-.rent-detail p{}
-.rent-detail p a{
-    text-decoration: none;
-    color: #fff;
-    background: #007500;
-    padding: 8px 10px;
-    border-radius: 7px;
-    
+
+.rent-detail p a {
+  text-decoration: none;
+  color: #fff;
+  background: #007500;
+  padding: 8px 10px;
+  border-radius: 7px;
 }
