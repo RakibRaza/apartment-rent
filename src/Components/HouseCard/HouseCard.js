@@ -21,7 +21,7 @@ const HouseCard = (props) => {
       </ListGroup>
       <Card.Body>
         <Card.Link href="#">{price}</Card.Link>
-        <Link className="btn btn-primary" to={`details/${id}`}>Details</Link>
+        <Link to={`details/${id}`}>  <Card.Link className="btn btn-primary">Details</Card.Link></Link>
       </Card.Body>
     </Card>
   );

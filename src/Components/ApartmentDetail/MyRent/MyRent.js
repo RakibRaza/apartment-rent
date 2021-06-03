@@ -10,7 +10,7 @@ const MyRent = () => {
 
                     <div className="rent-table">
                         <div className="rent-heading">
-                        <h6>House Name</h6> <h6>Price</h6> <h6>Action</h6>
+                            <h6>House Name</h6> <h6>Price</h6> <h6>Action</h6>
                         </div>
                         <div className="rent-detail">
                             <p>Lorem ipsum dolor.</p> <p>$65</p> <p><a href="#">View Detail</a></p>

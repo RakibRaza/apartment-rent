@@ -7,9 +7,9 @@ import Navber from '../Components/Navber/Navber'
 const Home = () => {
   return (
     <>
-      <Navber></Navber>
+
       <HomeSection></HomeSection>
-      <Footer></Footer>
+
     </>
   )
 }
