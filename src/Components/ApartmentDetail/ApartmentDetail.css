@@ -1,86 +1,85 @@
-.aptDetail-Section{
-    margin-top: 50px;
-    padding-bottom: 50px;
+.aptDetail-Section {
+  margin-top: 50px;
+  padding-bottom: 50px;
 }
-.apartment-pictures{}
-.apartment_badge {}
-.apartment_badge img{
-    max-width: 100%;
+.apartment_badge img {
+  max-width: 100%;
 }
-.apartment-inside{
-    margin-right: 26%;
+.apartment-inside {
+  margin-right: 26%;
 }
-.apartment-inside img{
-    width: 179px;
-    height: 150px;
-    margin: 15px;
+.apartment-inside img {
+  width: 179px;
+  height: 150px;
+  margin: 15px;
 }
-.booking-form{
-    background: #f4f3f3;
-    padding: 30px 10px;
+.booking-form {
+  background: #f4f3f3;
+  padding: 30px 10px;
 }
-.booking-form input{
-    width: 90%;
-    margin-bottom: 15px;
-    border: none;
-    padding: 8px 15px;
-    border-radius: 7px;
+.booking-form input {
+  width: 90%;
+  margin-bottom: 15px;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 7px;
 }
-.booking-form textarea{
-    padding: 8px 15px;
-    border-radius: 7px;
-    width: 90%;
-    border: none;
-    height: 140px;
+.booking-form textarea {
+  padding: 8px 15px;
+  border-radius: 7px;
+  width: 90%;
+  border: none;
+  height: 140px;
 }
-.booking-form .submit{
-    background: #585958;
-    color: #fff;
-    font-weight: 500;
-    text-transform: uppercase;
-    font-size: 15px;
-    margin-top: 20px;
-    width: 80%;
+.booking-form .submit {
+  background: #585958;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-top: 20px;
+  width: 80%;
+  text-align: center;
+  cursor: pointer;
 }
-.apartment-pricing{
-    text-align: left;
-    padding: 30px 0;
-    margin-left: 18px;
+.apartment-pricing {
+  text-align: left;
+  padding: 30px 0;
+  margin-left: 18px;
 }
-.family-apartment{}
-.family-apartment{}
-.family-apartment h4{
-    font-size: 20px;
-    font-weight: 600;
+.family-apartment h4 {
+  font-size: 20px;
+  font-weight: 600;
 }
-.family-apartment span{
-    display: block;
-    font-size: 20px;
-    font-weight: 700;
-    color: #0e3e0e;
+.family-apartment span {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  color: #0e3e0e;
 }
-.family-apartment p{
-    margin-top: 15px;
-    width: 80%;
-    color: #514f4f;
-    font-size: 16px;
+.family-apartment p {
+  margin-top: 15px;
+  width: 80%;
+  color: #514f4f;
+  font-size: 16px;
 }
-.price-details{}
-.price-details h6, .property-detail h6{
-    font-weight: 600;
-    margin-bottom: 20px;
+
+.price-details h6,
+.property-detail h6 {
+  font-weight: 600;
+  margin-bottom: 20px;
 }
-.price-details p, .property-detail p{
-color: #514f4f;
-line-height: 20px;
+.price-details p,
+.property-detail p {
+  color: #514f4f;
+  line-height: 20px;
 }
-.property-detail{
-    text-align: left;
-    margin-left: 18px;
+.property-detail {
+  text-align: left;
+  margin-left: 18px;
 }
-.property-detail p{
-    color: #514f4f;
-    line-height: 30px;
-    width: 70%;
-    
+.property-detail p {
+  color: #514f4f;
+  line-height: 30px;
+  width: 70%;
 }

@@ -28,10 +28,10 @@
   margin: 20px;
 }
 
-.rent-detail p a {
-  text-decoration: none;
+.rent-detail p span {
   color: #fff;
   background: #007500;
   padding: 8px 10px;
   border-radius: 7px;
+  cursor: pointer;
 }

@@ -7,13 +7,15 @@ import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { useHistory, useParams } from 'react-router';
 import data from "../Data/Data.json"
 import { Link } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { addToCart } from '../../redux/action';
 const ApartmentDetail = () => {
-    // const TeamDetail = (props) => {
-    //     const {strBanner, strBadge, strLeague, intFormedYear, strCountry, strSport, strGender,strDescriptionEN, strDescriptionFR, strFacebook, strTwitter,strYoutube} = props.team.team;
     const { id } = useParams();
     const [home, setHome] = useState(data.find(item => item.id === parseInt(id)))
+    const dispatch = useDispatch()
     const history = useHistory()
     const handleClick = () => {
+        dispatch(addToCart(id))
         history.push(`/rent/${id}`)
     }
     return (
@@ -41,7 +43,7 @@ const ApartmentDetail = () => {
                                 <input type="number" placeholder="Phone No." />
                                 <input type="email" placeholder="Email Address" />
                                 <textarea name="" id="" placeholder="Message"></textarea>
-                                <input onClick={handleClick} className="submit" type="submit" value="Request Booking" />
+                                <input onClick={handleClick} className="submit" value="Request Booking" />
 
                             </form>
                         </div>
@@ -52,7 +54,7 @@ const ApartmentDetail = () => {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="family-apartment">
-                                <h4>Family Apartment Three</h4>
+                                <h4>{home.first_name}</h4>
                                 <span className="apt-pricing">-{home.price} {/* {price} */} </span>
                                 <p>300 sq-ft Bedroom, semi-furnished, Luxurious, South facing Apartment for Rent in Rangs Malancha, Meiboune {/* {details} */}</p>
                             </div>
