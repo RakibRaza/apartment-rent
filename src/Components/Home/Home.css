@@ -1,0 +1,16 @@
+.backImg{
+    background-image: url('https://ds4.cityrealty.com/img/f736351fe6d0b7871164ad4446ea315a18bec34c+736++0+60/20-east-end-penthouse.jpg');
+    height: 250px;
+    background-size: cover;
+}
+.serchPlace{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gap{
+    padding:20px;
+}
+.textMiddle{
+    text-align: center;
+}
