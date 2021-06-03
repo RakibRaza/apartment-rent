@@ -7,9 +7,8 @@ import { Col, Row, Card } from 'react-bootstrap';
 import picOne from "../logos/affordable 1.png"
 import picTwo from "../logos/apartment 1.png"
 import picThree from "../logos/lessee 1.png"
-import Footer from '../Footer/Footer';
 
-const Home = () => {
+const HomeSection = () => {
     const [data, setdata] = useState([]);
     useEffect(() => { setdata(Data) }, [])
 
@@ -107,9 +106,8 @@ const Home = () => {
 
                 </div>
             </div >
-            <Footer></Footer>
         </div>
     );
 };
 
-export default Home;
+export default HomeSection;
