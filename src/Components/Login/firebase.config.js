@@ -1,9 +1,9 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyApoPuVT_nPgNRVz4zMA4NnPAwf1KM_LUQ",
-    authDomain: "apartment-53f2f.firebaseapp.com",
-    projectId: "apartment-53f2f",
-    storageBucket: "apartment-53f2f.appspot.com",
-    messagingSenderId: "797500282205",
-    appId: "1:797500282205:web:3cc19793846459c076c4b4"
-  };
-  export default firebaseConfig;
+  apiKey: "AIzaSyDHK9IGpdaNKT7J5oXqSK5ClnS01qpNxq0",
+  authDomain: "apartment-rent-bd.firebaseapp.com",
+  projectId: "apartment-rent-bd",
+  storageBucket: "apartment-rent-bd.appspot.com",
+  messagingSenderId: "262728662179",
+  appId: "1:262728662179:web:6209b887a28e79722f1316"
+};
+export default firebaseConfig;

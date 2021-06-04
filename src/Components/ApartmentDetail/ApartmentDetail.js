@@ -56,7 +56,7 @@ const ApartmentDetail = () => {
                             <div className="family-apartment">
                                 <h4>{home.first_name}</h4>
                                 <span className="apt-pricing">-{home.price} {/* {price} */} </span>
-                                <p>300 sq-ft Bedroom, semi-furnished, Luxurious, South facing Apartment for Rent in Rangs Malancha, Meiboune {/* {details} */}</p>
+                                <p>{home.familyApt} {/* {details} */}</p>
                             </div>
                         </div>
 
@@ -75,7 +75,7 @@ const ApartmentDetail = () => {
 
                 <div className="property-detail">
                     <h6>Property Details-</h6>
-                    <p>{home.detailthree}</p>
+                    <p>{home.propertyDetail}</p>
                 </div>
 
             </div>
