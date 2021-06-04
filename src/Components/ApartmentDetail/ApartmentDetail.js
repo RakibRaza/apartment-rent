@@ -63,8 +63,8 @@ const ApartmentDetail = () => {
                         <div className="col-md-6">
                             <div className="price-details">
                                 <h6>Price Details-</h6>
-                                <p>Rent/Month: $550(negotiable) {/* {price} */}</p>
-                                <p>Rent/Charge: 8,000/= Tk per month, subject to change {/* {price} */}</p>
+                                <p>Rent/Month: {home.price}(negotiable) {/* {price} */}</p>
+                                <p>Rent/Charge: {home.serviceCharge}/= Tk per month, subject to change {/* {price} */}</p>
                                 <p>Security/Deposit: 3 Month's rent{/* {price} */}</p>
                                 <p>Flat Release Policy: Lorem ipsum dolor sit amet. {/* {price} */}</p>
                             </div>
