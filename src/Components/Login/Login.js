@@ -50,7 +50,7 @@ const Login = () => {
                     errorWroning.error = '';
                     errorWroning.success = true;
                     setUser(errorWroning);
-                    
+
 
                 })
                 .catch(error => {
@@ -80,7 +80,7 @@ const Login = () => {
                     setUser(errorWroning);
                 });
         }
-     
+
         e.preventDefault();
     }
 
@@ -108,47 +108,47 @@ const Login = () => {
     };
     return (
         <>
-        <div className="form_section">
-            <h3 className="title">Sign up</h3>
-            <form onSubmit={handleSubmit}>
-                <br />
-                {!createUser && <input className="Swich_form" type="text" name="name" onBlur={handleOnBlur} placeholder="First Name" required />}
-                <br />
-                {!createUser && <input className="Swich_form" type="text" name="name" onBlur={handleOnBlur} placeholder="Last Name" required />}
-                <br />
-                <div className="Form_control">
-                    <input type="text" name="email" onBlur={handleOnBlur} placeholder="Username or Email" required />
+            <div className="form_section">
+                <h3 className="title">Sign up</h3>
+                <form onSubmit={handleSubmit}>
+                    <br />
+                    {!createUser && <input className="Swich_form" type="text" name="name" onBlur={handleOnBlur} placeholder="First Name" required />}
+                    <br />
+                    {!createUser && <input className="Swich_form" type="text" name="name" onBlur={handleOnBlur} placeholder="Last Name" required />}
+                    <br />
+                    <div className="Form_control">
+                        <input type="text" name="email" onBlur={handleOnBlur} placeholder="Username or Email" required />
+                    </div>
+                    <br />
+                    <div className="Form_control">
+                        <input type="password" name="password" onBlur={handleOnBlur} placeholder="Password" required />
+                    </div>
+                    <br />
+                    {!createUser && <input className="Swich_form" type="password" name="name" onBlur={handleOnBlur} placeholder="Confrim password" required />}
+                    <br />
+                    <input className="Submit_controll" type="submit" value={!createUser ? "Sign up" : "Login"} />
+                </form>
+                <div className="Text_Conrol">
+                    <span className="h5">Already have an account ?</span>
+                    <input type="checkbox" onChange={() => setCreateUser(!createUser)} name="NewUser" />
+                    <span className="ChekBox_text"><label htmlFor="NewUser">Login</label></span>
                 </div>
-                <br />
-                <div className="Form_control">
-                    <input type="password" name="password" onBlur={handleOnBlur} placeholder="Password" required />
+
+                <p style={{ color: 'red', marginLeft: '50px' }}>{user.error}</p>
+                {
+                    user.success && <p style={{ color: 'green', marginLeft: '30px' }}>user {!createUser ? 'created' : 'Logged In Successfully'}</p>
+                }
+
+                <div className="Or_arrow">
+                    <div className="left_arrow"></div>
+                    <h3>Or</h3>
+                    <div className="right_arrow"></div>
                 </div>
-                <br />
-                {!createUser && <input className="Swich_form" type="password" name="name" onBlur={handleOnBlur} placeholder="Confrim password" required />}
-                <br />
-                <input className="Submit_controll" type="submit" value={!createUser ? "Sign up" : "Login"} />
-            </form>
-            <div className="Text_Conrol">
-                <span className="h5">Already have an account ?</span>
-                <input type="checkbox" onChange={() => setCreateUser(!createUser)} name="NewUser" />
-                <span className="ChekBox_text"><label htmlFor="NewUser">Login</label></span>
-            </div>
 
-            <p style={{ color: 'red', marginLeft: '50px' }}>{user.error}</p>
-            {
-                user.success && <p style={{ color: 'green', marginLeft: '30px' }}>user {!createUser ? 'created' : 'Logged In Successfully'}</p>
-            }
-
-            <div className="Or_arrow">
-                <div className="left_arrow"></div>
-                <h3>Or</h3>
-                <div className="right_arrow"></div>
+                <div className="login-button">
+                    <button onClick={googleSignIn} className="auto_login"><img src={google} alt="" />Continue With Google</button>
+                </div>
             </div>
-
-            <div className="login-button">
-                <button onClick={googleSignIn} className="auto_login"><img src={google} alt="" />Continue With Google</button>
-            </div>
-        </div>
         </>
     );
 };

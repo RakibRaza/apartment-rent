@@ -21,7 +21,7 @@ const HomeSection = () => {
             <div className="row backImg">
                 <div className="col-md-3"></div>
                 <div className="col-md-6 ">
-                    <h1 className="serchPlace">find your rent house</h1>
+                    <h1 className="serchPlace">Find your dream Aparement</h1>
                     <div className="serchPlace">
                         <Form className="d-flex">
                             <FormControl

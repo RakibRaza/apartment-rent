@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { Redirect, Route } from 'react-router';
 import { UserContext } from '../../App';
 
-const PrivetRoute = ({children, ...rest}) => {
+const PrivetRoute = ({ children, ...rest }) => {
     const [logUser, setLogUser] = useContext(UserContext);
     return (
         <div>

@@ -75,7 +75,7 @@ const ApartmentDetail = () => {
 
                 <div className="property-detail">
                     <h6>Property Details-</h6>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sit, quo, pariatur libero voluptatum perferendis laboriosam unde iste animi perspiciatis itaque quidem quaerat esse odit, maxime ex laudantium architecto quos eos rerum magni excepturi maiores. Veritatis officiis sunt labore quos tempore voluptates, accusantium dolores minus consectetur ducimus repudiandae esse ipsa.</p>
+                    <p>{home.detailthree}</p>
                 </div>
 
             </div>
