@@ -7,7 +7,7 @@ const Navber = () => {
     <div>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <div className='container'>
-          <Navbar.Brand href="#home">Apartment-Rent</Navbar.Brand>
+          <Navbar.Brand href="#home">Apartment Rent</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
